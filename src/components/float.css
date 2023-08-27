@@ -1,0 +1,176 @@
+
+.float-container {
+    margin-top: -100px;
+    width: 1220px;
+    height: 300px;
+    margin: -230px auto;
+    
+  }
+  
+  .float {
+    margin-top: -40px;
+    float: left;
+    width: 25%;
+    height: 290px;
+    background-color: rgb(54, 124, 170);
+    position: relative;
+  }
+  
+  .item1,
+  .item3 {
+    background-color: rgb(32, 112, 165);
+  }
+  
+  .float:hover {
+    transform: translateY(-30px);
+    transition: all 0.2s ease;
+  }
+  
+  .fbtn1,
+  .fbtn2,
+  .fbtn3,
+  .fbtn4 {
+    bottom: 0px;
+    position: absolute;
+    height: 45px;
+    width: 100%;
+  
+    & a {
+      width: 100%;
+      height: 90%;
+      text-decoration: none;
+      position: absolute;
+      padding-left: 100px;
+      top: 10px;
+    }
+  }
+  
+  .float hr {
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  
+  .ftext3 p {
+    margin-left: 20px;
+    width: 90%;
+  }
+  
+  .ftext2 p {
+    height: 100%;
+    width: 90%;
+    margin-left: 20px;
+  }
+  
+  .fhead1,
+  .fhead2,
+  .fhead3,
+  .fhead4 {
+    padding-top: 15px;
+    height: 40px;
+    width: 100%;
+  
+    text-align: center;
+    font-size: large;
+    color: white;
+  }
+  
+  .fhead1 .fa-solid {
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+  
+  .fhead2 .fa-solid {
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+  
+  .ftext4 .fa-phone-volume {
+    font-size: 25px;
+    letter-spacing: 10px;
+    top: 6px;
+    position: relative;
+  }
+  
+  .fhead3 .fa-solid {
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+  
+  .fhead4 .fa-solid {
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+  
+  .ftext1,
+  .ftext2,
+  .ftext3,
+  .ftext4 {
+    padding-top: 25px;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+  
+  .ftext1,
+  .ftext4 {
+    line-height: 30px;
+  
+  }
+  
+  .fbtn1,
+  .fbtn2,
+  .fbtn3,
+  .fbtn4 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .fa-tower-broadcast{
+    position: relative;
+    top: 3.5px;
+  }
+  .fbtn1 a {
+    position: relative;
+    left: 14px;
+  }
+  
+  .fbtn2 a {
+    position: relative;
+    left: 14px;
+  }
+  
+  .fbtn3 a {
+    position: relative;
+    left: 14px;
+  }
+  
+  .fbtn4 a {
+    position: relative;
+    left: 14px;
+  }
+  
+  .float:hover {
+    .fbtn1 {
+      opacity: 1;
+      background-color: rgb(22, 74, 108);
+    }
+  
+    .fbtn2 {
+      opacity: 1;
+      background-color: rgb(5, 103, 173);
+  
+    }
+  
+    .fbtn3 {
+      opacity: 1;
+      background-color: rgb(22, 74, 108);
+    }
+  
+    .fbtn4 {
+      opacity: 1;
+      background-color: rgb(5, 103, 173);
+    }
+  }
+  

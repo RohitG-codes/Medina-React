@@ -1,0 +1,82 @@
+.afterfloat-service{
+  margin-top: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-size: 70px;
+}
+.grid-service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 6rem;
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-right: 15px;
+  
+  }
+  
+  .grid-service-item {
+    padding: 20px;
+    text-align: center;
+    height: 325px;
+    position: relative;
+  }
+  
+  .one {
+    background-image: url('./utils/1.jpg');
+    background-size: cover;
+  }
+  
+  .two {
+    background-image: url('./utils/2.jpg');
+    background-size: cover;
+  }
+  
+  .three {
+    background-image: url('./utils/3.jpg');
+    background-size: cover;
+  }
+  
+  .four {
+    background-image: url('./utils/4.jpg');
+    background-size: cover;
+  }
+  
+  .five {
+    background-image: url('./utils/5.jpg');
+    background-size: cover;
+  }
+  
+  .six {
+    background-image: url('./utils/6.jpg');
+    background-size: cover;
+  }
+  
+  .btnn {
+    top: 237px;
+    left: 120px;
+    position: absolute;
+    height: 50.33px;
+    width: 250px;
+    background-color: rgb(59, 152, 245);
+    display: block;
+    padding: 15px 15px 14px 17px;
+    text-align: center;
+    border-radius: 10px;
+  
+    & a {
+      text-decoration: none;
+    }
+  }
+  
+  .btnn:hover {
+    background-color: #042b3d;
+    transition: all 0.5s ease-out;
+  }
+  
+  .btnn a:hover {
+    color: white;
+    transition: all 0.5s ease-out;
+  }
+  

@@ -1,0 +1,103 @@
+.clearfix {
+  clear: both;
+}
+
+.main-navblog {
+  min-height: 100px;
+  width: 100%;
+  background-color: white;
+}
+.mini-heading{
+  text-align: center;
+  font-size: larger;
+}
+.main-navblog-h1{
+  text-align: center;
+  font-size: 70px;
+  color: black;
+  padding-top: 20px;
+}
+.nnnavblog-container {
+  width: 1140px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+.col-div-6 {
+  width: 50%;
+  float: left;
+}
+
+.heading {
+  color: var(--white);
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-top: 14%;
+}
+
+.b-img {
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.b-img:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+}
+
+.heading1 {
+  margin-top: 20px;
+  color: var(--main);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.blog-heading {
+  font-size: 29px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--black);
+}
+.nbtext {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--black);
+  margin-bottom: 20px;
+}
+.name {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #a1a1a1;
+  font-size: 14px;
+}
+.lr-box {
+  padding: 10px 20px;
+}
+.b-img-1 {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 7px;
+  transition: all 0.4s ease-in-out;
+}
+.b-img-1:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.blog-heading-1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--black);
+}
+.line {
+  width: 100%;
+  margin-top: 15px;
+  border: none;
+  height: 1px;
+  background: #ddd;
+}
+
+.box-2 {
+  width: 28.5%;
+  float: left;
+  margin: 25px;
+}

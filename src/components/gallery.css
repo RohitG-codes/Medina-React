@@ -1,0 +1,26 @@
+.gal-container{
+  width: 100%;
+  height: 800px;
+  background-color: white;
+}
+.gal-h2{
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+.thumbnails {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  overflow: scroll;
+  justify-content: center;
+}
+.thumbnail {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.slide-number {
+  display: none;
+}

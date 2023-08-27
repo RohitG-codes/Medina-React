@@ -1,0 +1,154 @@
+.footer-container {
+    width: 100%;
+    background-color: rgb(20, 67, 134);
+  
+  }
+  
+  .footer {
+    width: 1220px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 60px 34px;
+    margin: auto;
+  }
+  
+  .footer-card {
+    height: 80%;
+    width: 33%;
+  }
+  
+  .flogo {
+    padding: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  
+  .ficons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 10px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  
+  .ficons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: rgb(153, 147, 147);
+    display: inline-block;
+    transition: 0.5s;
+  }
+  
+  .ficons a:hover {
+    color: #821e41;
+    transform: translateY(-3px);
+  }
+  
+  .con-title {
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  
+  .con {
+    font-size: 18px;
+    margin-right: 15px;
+    margin-left: 22%;
+    padding-bottom: 5px;
+  }
+  .con-no a {
+    position: relative;
+    left: 7px;
+  }
+  
+  .con-add a {
+    position: relative;
+    left: -3px;
+  }
+  
+  .con-mail a {
+    position: relative;
+    left: 4px;
+  }
+  .con a {
+    text-decoration: none;
+    color: rgb(153, 147, 147);
+    transition: 0.5s;
+  }
+  
+  .con a:hover {
+    color: #821e41;
+  }
+  .con i{
+    color: rgb(153, 147, 147);
+  
+  }
+  
+  .news-title {
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  
+  .con .fa-solid {
+    font-size: 25px;
+    letter-spacing: 15px;
+    position: relative;
+    top: 5px;
+  }
+  
+  .news-text {
+    font-size: 18px;
+    margin-right: 15px;
+    margin-left: 20%;
+    padding-bottom: 5px;
+    color: rgb(153, 147, 147);
+  
+  }
+  
+  .news-mail {
+    margin-left: 20%;
+    margin-top: 10px;
+  }
+  
+  .mailid {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+
+  }
+  
+  .foot-btn {
+    height: 40px;
+    width: 85px;
+    background-color: rgb(63, 53, 53);
+    color: rgb(181, 169, 169);
+    position: relative;
+    left: 5px;
+    top: 0px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .foot-btn:hover {
+    background-color: #821e41;
+  }
+  
+  .foot-hr {
+    width: 70%;
+    margin-left: 60px;
+    margin-bottom: 10px;
+  }
+  

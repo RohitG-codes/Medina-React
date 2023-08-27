@@ -1,0 +1,38 @@
+.dep-con{
+    background-color: white;
+    height: 1000px;
+}
+.dep-h1 {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    padding-top: 40px;
+  }
+  .dep-name{
+    color: black;
+    margin-bottom: 15px;
+  }
+
+  .department {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: 250px;
+  }
+
+  .department img {
+    max-width: 150px;
+    margin-right: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 150px;
+    width: 200px;
+  }
+
+  .department-description {
+    flex: 1;
+  }

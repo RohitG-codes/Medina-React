@@ -1,0 +1,98 @@
+.header {
+  padding: 0px 82.5px;
+  padding-top: 38px;
+  display: flex;
+  width: 1330px;
+  margin: auto;
+  height: 250px;
+  flex-direction: column;
+}
+.head-child {
+  z-index: 1;
+}
+.contacts {
+  .icon {
+    width: 50%;
+  }
+
+  .header-contact {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .phone {
+      width: 50%;
+      margin-right: 10px;
+    }
+
+    .location {
+      width: 50%;
+    }
+  }
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 50px;
+}
+
+.navbarscroll {
+  transition: 0.3s ease-in-out, 0.3s ease-in-out;
+}
+
+.navbarscroll.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(9, 48, 85);
+}
+
+.navbar {
+  margin-top: 12px;
+  background-color: rgb(60, 121, 201);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  width: 100%;
+}
+
+a {
+  color: aliceblue;
+}
+li {
+  list-style: none;
+  padding: 18px 19px;
+}
+
+li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+.navbar nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li:hover {
+  background-color: rgb(15, 88, 184);
+  transition: all 0.5s ease;
+}
+
+.navbar nav ul li.active {
+  background-color: rgb(15, 88, 184);
+}
+
+.fas {
+  border: 1px solid transparent;
+  padding: 10px;
+  color: white;
+  background-color: transparent;
+  border-radius: 50%;
+  font-size: 20px;
+  position: relative;
+  top: 1px;
+}

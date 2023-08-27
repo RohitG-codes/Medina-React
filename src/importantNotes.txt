@@ -1,0 +1,48 @@
+import React, { useState } from 'react';
+import './Navbar.css';
+
+We're importing necessary modules. React is imported for creating React components, and useState is used for managing state within functional components. We're also importing a CSS file named Navbar.css to style our component.
+
+
+const Navbar = () => {
+  const [isFixed, setIsFixed] = useState(false);
+  }
+
+We define a functional component called Navbar. The component uses the useState hook to manage a piece of state called isFixed. This state will be responsible for determining whether the navbar should be fixed or not.
+Scroll Handling Function:
+
+const handleScroll = () => {
+  if (window.scrollY > 100) {
+    setIsFixed(true);
+  } else {
+    setIsFixed(false);
+  }
+};
+
+This function, handleScroll, is called whenever the user scrolls on the page. It checks the vertical scroll position using window.scrollY. If the scroll position is greater than 100 pixels from the top, it sets isFixed to true, indicating that the navbar should be fixed. Otherwise, it sets isFixed to false.
+
+React.useEffect(() => {
+  window.addEventListener('scroll', handleScroll);
+  return () => {
+    window.removeEventListener('scroll', handleScroll);
+  };
+}, []);
+
+The useEffect hook is used to manage the lifecycle of attaching and detaching the scroll event listener.
+When the component mounts, it attaches the handleScroll function to the scroll event on the window.
+When the component unmounts (cleanup phase), it removes the handleScroll function from the scroll event listener.
+The empty array [] at the end ensures that the effect is only run once, when the component mounts.
+
+return (
+  <nav className={`navbar ${isFixed ? 'fixed' : ''}`}>
+    {/* Your navbar content here */}
+  </nav>
+);
+In the return statement, we're rendering JSX. We use the navbar class for basic styling.
+We also conditionally add the fixed class to the navbar element using a template string. The fixed class is added when isFixed is true, making the navbar fixed at the top.
+
+CSS Styling:
+
+The provided CSS in the Navbar.css file styles the appearance of the navbar. It defines how the navbar's appearance should change when it becomes fixed.
+
+The combination of the JavaScript logic and the CSS styling creates the effect of a navbar that becomes fixed as you scroll down the page. The code ensures that the navbar transitions smoothly in terms of its background color and padding when it changes from a non-fixed to a fixed state.

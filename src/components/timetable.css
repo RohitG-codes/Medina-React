@@ -1,0 +1,56 @@
+.tt-container {
+  background-color: white;
+  padding-top: 20px;
+  height: 700px;
+}
+
+.tt-h1 {
+  text-align: center;
+  color: black;
+}
+
+.tt-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.tt-th,
+.tt-td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.tt-th {
+  background-color: #f2f2f2;
+}
+
+.tt-th:first-child,
+.tt-td:first-child {
+  background-color: #e6e6e6;
+}
+
+.tt-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tt-styled-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.tt-styled-button:hover {
+  background-color: #0056b3;
+}

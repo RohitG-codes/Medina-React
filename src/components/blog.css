@@ -1,0 +1,165 @@
+.blog-head {
+  width: 1220px;
+  margin: auto;
+}
+
+.afterfloat-blog {
+  margin-top: -10px;
+  padding-bottom: 50px;
+  position: relative;
+  left: 20px;
+  text-align: left;
+  font-size: 70px;
+  color: white;
+}
+
+.blog-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1220px;
+  margin: auto;
+  height: 650px;
+}
+
+.blog-box {
+  height: 98%;
+  width: 370px;
+  padding: 0px 15px;
+  background-color: aliceblue;
+}
+
+.blog-image {
+  background-color: black;
+  width: 98%;
+  height: 67%;
+  margin-top: 10px;
+}
+
+.blog-image:hover {
+  transform: translateY(-30px);
+  transition: all .5s ease-in-out;
+}
+
+.img1 {
+  background-image: url('./utils/7.jpg');
+  background-size: cover;
+
+}
+
+.img2 {
+  background-image: url('./utils/8.jpg');
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url('./utils/9.jpg');
+  background-size: cover;
+}
+
+.blog-title {
+  padding-top: 25px;
+}
+
+.blog-title a {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.blog-title a:hover {
+  color: #821e41;
+  transition: all .3s ease;
+}
+
+.blog-desc {
+  padding-top: 15px;
+}
+
+.blog-btn {
+  margin-top: 40px;
+  margin-left: 103px;
+  height: 45px;
+  width: 250px;
+  background-color: white;
+  padding-bottom: 40px;
+  border-radius: 25%;
+
+}
+
+.blog-btn a {
+  font-size: 20px;
+  color: black;
+  padding-left: 22px;
+  padding-top: 5px;
+}
+
+.blog-btn-container {
+  width: 1220px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.blog-btn {
+  height: 50px;
+  width: 225px;
+  background-color: black;
+  padding-top: 14px;
+  background-color: white;
+  border-radius: 32px;
+  margin-top: 30px;
+  margin: auto;
+  margin-left: 20px;
+}
+
+.blog-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  width: 90%;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.blog-date .bd-border {
+  border: 1px solid #bdbdbd;
+  height: 20px;
+  position: relative;
+  right: 25px;
+}
+
+.blog-date .bd-text {
+  position: relative;
+  right: 40px;
+}
+
+.blog-date .bd-text a {
+  text-decoration: none;
+  color: #011f2d;
+}
+
+.blog-date .bd-text a:hover {
+  color: #821e41;
+  transition: all 0.5s ease;
+}
+
+.blog-btn:hover {
+  background-color: #025378;
+  transition: all 0.2s ease;
+}
+
+.blog-btn a:hover {
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.blog-btn a {
+  text-decoration: none;
+  padding: 0px 13px;
+  color: black;
+}

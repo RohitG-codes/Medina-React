@@ -1,0 +1,52 @@
+.contactcontainer{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  padding: 37px;
+}
+.ccontainer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  width: 600px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.c {
+  text-align: center;
+  color: black;
+}
+
+label,.cname,.cemail, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.cname,.cemail, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.cbtn{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cbtn:hover {
+  background-color: #0056b3;
+}
+
+#responseMessage {
+  text-align: center;
+  margin-top: 10px;
+}
