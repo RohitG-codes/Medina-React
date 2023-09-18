@@ -1,7 +1,11 @@
 import React from "react";
 import "./team.css";
+import Paagetransition from "./pagetransition";
+
 const Team = () => {
+  
   return (
+    <Paagetransition>
     <div className="team-container">
     <h1 className="t-h1">Our Team</h1>
       <section className="team">
@@ -37,6 +41,7 @@ const Team = () => {
         </div>
       </section>
     </div>
+    </Paagetransition>
   );
 };
 

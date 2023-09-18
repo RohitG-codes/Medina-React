@@ -1,5 +1,7 @@
 import React from "react";
 import contactcss from "./contact.module.css";
+import Paagetransition from "./pagetransition";
+
 const Contact = () => {
 
   const handleContactSubmit = (event) => {
@@ -8,6 +10,7 @@ const Contact = () => {
   };
 
   return (
+    <Paagetransition>
     <div className={contactcss.contactcontainer}>
       <div className={contactcss.ccontainer}>
         <h1 className={contactcss.c}>Contact Us</h1>
@@ -43,6 +46,7 @@ const Contact = () => {
         <p id="responseMessage" />
       </div>
     </div>
+    </Paagetransition>
   );
 };
 

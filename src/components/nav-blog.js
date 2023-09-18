@@ -1,7 +1,10 @@
 import React from "react";
 import "./nav-blog.css";
+import Paagetransition from "./pagetransition";
+
 const Navblog = () => {
   return (
+    <Paagetransition>
     <div className="main-navblog">
       <h1 className="main-navblog-h1">Our Blogs</h1>
       <section>
@@ -228,6 +231,7 @@ const Navblog = () => {
         </div>
       </section>
     </div>
+    </Paagetransition>
   );
 };
 

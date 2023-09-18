@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Carousel } from 'react-carousel-minimal';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./gallery.css";
+import Paagetransition from "./pagetransition";
+
 const Gallery = () => {
   const data = [
 
@@ -58,6 +60,7 @@ const Gallery = () => {
     color:'black'
   }
   return (
+    <Paagetransition>
     <div className="gal-container">
     <div style={{ textAlign: "center" }}>
       <h2 className="gal-h2">WelCome to Our Gallery</h2>
@@ -92,6 +95,7 @@ const Gallery = () => {
       </div>
     </div>
   </div>
+  </Paagetransition>
   );
 };
 

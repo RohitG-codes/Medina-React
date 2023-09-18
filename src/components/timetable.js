@@ -1,8 +1,11 @@
 import React from "react";
 import "./timetable.css";
 import { Link } from "react-router-dom";
+import Paagetransition from "./pagetransition";
+
 const Timetable = () => {
   return (
+    <Paagetransition>
     <div className="tt-container">
       <h1 class="tt-h1">Our Timetable</h1>
       <table class="tt-table">
@@ -165,6 +168,7 @@ const Timetable = () => {
         </Link>
       </div>
     </div>
+    </Paagetransition>
   );
 };
 

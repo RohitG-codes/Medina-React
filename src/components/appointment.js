@@ -1,5 +1,7 @@
 import React from 'react';
 import "./appointment.css";
+import Paagetransition from "./pagetransition";
+
 const Appointment = () => {
 
   const handleAppointmentSubmit = (event) => {
@@ -8,6 +10,7 @@ const Appointment = () => {
   };
 
   return (
+    <Paagetransition>
     <div className="ap-main-container">
       <div className="ap-container">
         <h1 className="ap-h1">Book an Appointment</h1>
@@ -22,6 +25,7 @@ const Appointment = () => {
         </form>
       </div>
     </div>
+    </Paagetransition>
   );
 };
 

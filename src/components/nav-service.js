@@ -1,7 +1,10 @@
 import React from "react";
 import "./nav-service.css";
+import Paagetransition from "./pagetransition";
+
 const Navservice = () => {
   return (
+    <Paagetransition>
     <div className="navblog-container">
       <>
         <h1 className="blog-h1">Our Services</h1>
@@ -44,6 +47,7 @@ const Navservice = () => {
         </div>
       </>
     </div>
+    </Paagetransition>
   );
 };
 

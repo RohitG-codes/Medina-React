@@ -5,9 +5,11 @@ import Logo from "./logo";
 import Service from "./service";
 import Blog from "./blog";
 import { Link } from "react-router-dom";
+import Paagetransition from "./pagetransition";
+
 const Home = () => {
   return (
-    <>
+    <Paagetransition>
       <div className="bg-image">
         <div className="text-container">
           <div className="text">
@@ -31,7 +33,7 @@ const Home = () => {
       <Logo />
       <Service />
       <Blog />
-    </>
+    </Paagetransition>
   );
 };
 

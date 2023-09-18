@@ -1,8 +1,10 @@
 import React from "react";
 import "./about.css";
+import Paagetransition from "./pagetransition";
 
 const About = () => {
   return (
+    <Paagetransition>
     <div className="about-container">
       <div className="afterfloat11">About Us</div>
 
@@ -41,6 +43,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </Paagetransition>
   );
 };
 

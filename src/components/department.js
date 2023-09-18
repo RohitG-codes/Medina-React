@@ -1,10 +1,13 @@
 import React from "react";
 import "./department.css";
+import Paagetransition from "./pagetransition";
 
 const Department = () => {
   return (
+    <Paagetransition>
+    <div className="dep-container">
     <div className="dep-con">
-      <h1 className="dep-h1">Medical Departments</h1>
+      <h1 className="dep-h1">Our Departments</h1>
       <div className="department">
         <img src={require("./utils/dep3.jpg")} alt="Department 1" />
         <div className="department-description">
@@ -43,6 +46,9 @@ const Department = () => {
         </div>
       </div>
     </div>
+    </div>
+    </Paagetransition>
+
   );
 };
 

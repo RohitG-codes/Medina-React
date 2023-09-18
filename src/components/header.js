@@ -28,21 +28,26 @@ const Header = () => {
     };
   }, []);
 
-
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // You can change this to 'auto' for instant scrolling
+    });
+  };
   return (
     <div className="header-container">
       <div className="header">
         <div className="head-child">
           <div className="contacts">
             <div className="icon">
-              <a href="/">
+              <Link to="/" onClick={() => {handleItemClick("Home");scrollToTop();}}>
                 <img
                   src={require("./utils/logo-inverse-154x53.png")}
                   alt="logo"
                   height="53px"
                   width="154px"
                 />
-              </a>
+              </Link>
             </div>
             <div className="header-contact">
               <div className="phone">
@@ -59,24 +64,24 @@ const Header = () => {
             <nav className={`navbarscroll ${isFixed ? 'fixed' : ''}`}>
               <ul className="nav-menu">
                 <li className={activeItem === "Home" ? "active" : ""}>
-                  <Link to="/" onClick={() => handleItemClick("Home")}>
+                  <Link to="/" onClick={() => {handleItemClick("Home");scrollToTop();}}>
                     HOME
                   </Link>
                 </li>
                 <li className={activeItem === "About" ? "active" : ""}>
-                  <Link to="/about" onClick={() => handleItemClick("About")}>
+                  <Link to="/about" onClick={() => {handleItemClick("About");scrollToTop();}}>
                     About
                   </Link>
                 </li>
                 <li className={activeItem === "Team" ? "active" : ""}>
-                  <Link to="/team" onClick={() => handleItemClick("Team")}>
+                  <Link to="/team" onClick={() =>{ handleItemClick("Team");scrollToTop();}}>
                     Team
                   </Link>
                 </li>
                 <li className={activeItem === "Appointment" ? "active" : ""}>
                   <Link
                     to="/appointment"
-                    onClick={() => handleItemClick("Appointment")}
+                    onClick={() => {handleItemClick("Appointment");scrollToTop();}}
                   >
                     Appointment
                   </Link>
@@ -84,7 +89,7 @@ const Header = () => {
                 <li className={activeItem === "Services" ? "active" : ""}>
                   <Link
                     to="/navservice"
-                    onClick={() => handleItemClick("Services")}
+                    onClick={() => {handleItemClick("Services");scrollToTop();}}
                   >
                     Services
                   </Link>
@@ -92,7 +97,7 @@ const Header = () => {
                 <li className={activeItem === "Department" ? "active" : ""}>
                   <Link
                     to="/department"
-                    onClick={() => handleItemClick("Department")}
+                    onClick={() => {handleItemClick("Department");scrollToTop();}}
                   >
                     Department
                   </Link>
@@ -100,7 +105,7 @@ const Header = () => {
                 <li className={activeItem === "Timetable" ? "active" : ""}>
                   <Link
                     to="/timetable"
-                    onClick={() => handleItemClick("Timetable")}
+                    onClick={() => {handleItemClick("Timetable");scrollToTop();}}
                   >
                     Timetable
                   </Link>
@@ -108,20 +113,20 @@ const Header = () => {
                 <li className={activeItem === "Gallery" ? "active" : ""}>
                   <Link
                     to="/gallery"
-                    onClick={() => handleItemClick("Gallery")}
+                    onClick={() => {handleItemClick("Gallery");scrollToTop();}}
                   >
                     Gallery
                   </Link>
                 </li>
                 <li className={activeItem === "Blog" ? "active" : ""}>
-                  <Link to="/navblog" onClick={() => handleItemClick("Blog")}>
+                  <Link to="/navblog" onClick={() => {handleItemClick("Blog");scrollToTop();}}>
                     Blog
                   </Link>
                 </li>
                 <li className={activeItem === "Contact" ? "active" : ""}>
                   <Link
                     to="/contact"
-                    onClick={() => handleItemClick("Contact")}
+                    onClick={() => {handleItemClick("Contact");scrollToTop();}}
                   >
                     Contact
                   </Link>
